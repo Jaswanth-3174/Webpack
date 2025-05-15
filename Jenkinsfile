@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Clone Repo') {
             steps {
-                git url: 'https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git', branch: 'main'
+                git url: 'https://github.com/Jaswanth-3174/Webpack.git', branch: 'main'
             }
         }
 
